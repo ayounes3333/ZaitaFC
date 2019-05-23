@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1048960516695",
+    "firebase_url": "https://zaitafc-b04d0.firebaseio.com",
+    "project_id": "zaitafc-b04d0",
+    "storage_bucket": "zaitafc-b04d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048960516695:android:aae76b0560f23844",
+        "android_client_info": {
+          "package_name": "com.zaita.aliyounes.zaitafc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048960516695-js7clbb162ukcolja0tlh559k3qdciuq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zaita.aliyounes.zaitafc",
+            "certificate_hash": "ee32768e992c3e4bf51ec4a8e6e47ae47b9b7ed1"
+          }
+        },
+        {
+          "client_id": "1048960516695-rjls4iu9oode3uel3oqkmt3rco0ehs54.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3mn9lsFUnrGbV4yKa_9MI6yDEwItEtMY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048960516695-rjls4iu9oode3uel3oqkmt3rco0ehs54.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

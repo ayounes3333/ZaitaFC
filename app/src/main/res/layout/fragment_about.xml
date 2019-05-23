@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zaita.aliyounes.zaitafc.fragments.AboutFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:id="@+id/imageView_team"
+        android:scaleType="fitStart"
+        android:src="@drawable/pic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_title"
+        android:layout_below="@id/imageView_team"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_margin="16dp"
+        android:text="@string/zaita_football_club"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_description"
+        android:layout_below="@id/textView_title"
+        android:textSize="14sp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="About Text Goes Here...."
+        />
+</RelativeLayout>

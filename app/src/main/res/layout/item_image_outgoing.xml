@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:background="@drawable/chat_bubble_image"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp">
+            <RelativeLayout
+                android:layout_width="240dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/img_from_me"
+                    android:layout_width="224dp"
+                    android:layout_height="224dp"
+                    android:layout_margin="8dp"
+                    android:layout_gravity="end"/>
+
+                <TextView
+                    android:id="@+id/lbl_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/img_from_me"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginStart="8dp"
+                    tools:text="00:00"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="12sp"/>
+            </RelativeLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+</layout>

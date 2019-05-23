@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="firebase_url">https://zaitafc-d2643.firebaseio.com</string>
+    <string name="firebase_root_path">test</string>
+    <string name="firebase_storage_url">gs://zaitafc-d2643.appspot.com</string>
+</resources>

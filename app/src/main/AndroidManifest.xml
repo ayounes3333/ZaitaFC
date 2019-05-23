@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.zaita.aliyounes.zaitafc">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:name=".application.ZaitaFCApplication"
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:theme">
+        <activity android:name=".activities.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.SetingsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.AboutActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="firebase_url"
+            android:value="@string/firebase_url" />
+        <meta-data
+            android:name="firebase_root_path"
+            android:value="@string/firebase_root_path" />
+        <meta-data
+            android:name="firebase_storage_url"
+            android:value="@string/firebase_storage_url" />
+
+        <activity
+            android:name=".activities.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activities.FillInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.liuguangqiang.ipicker.IPickerActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/IPickerTheme" />
+        <activity android:name=".activities.AddNewsArticleActivity" />
+        <activity android:name=".chat.activities.NewChatsActivity"></activity>
+        <activity android:name=".activities.ImageActivity" />
+    </application>
+
+</manifest>
